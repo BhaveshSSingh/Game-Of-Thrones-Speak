@@ -1,0 +1,15 @@
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.list-styling {
+  list-style: none;
+  /* margin: 2rem;
+  padding: 2rem; */
+}
+button {
+  margin: 2rem;
+  padding: 2rem;
+}
