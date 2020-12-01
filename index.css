@@ -1,15 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #4ec9f5;
+  --accent-color: #e34e23;
+  --off-white: #e5e7eb;
+  --dark-gray: #1f2937;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* nav */
+
+.nav {
+  background-color: var(--off-white);
+  padding: 1rem 1rem;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  box-sizing: border-box;
+}
+.nav .link {
+  display: inline;
+  margin: none;
+  position: -webkit-sticky;
+  text-decoration: none;
+}
+
+.nav .nav-brand {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.nav .nav-pills {
+  text-align: right;
+}
+.list-unordered {
+  list-style-type: none;
+}
+.nav .link {
+  color: var(--primary-color);
+}
+.nav .link-active {
+  font-weight: bold;
+}
+.list-styling {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+/* header */
+.hero {
+  padding: 1rem;
+}
+
+.hero .hero-img {
+  border-radius: 1rem;
+  margin: auto;
+  width: 100%;
+  max-width: 850px;
+  display: block;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--accent-color);
+}
+.hero .hero-heading .highlight {
+  color: var(--primary-color);
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.orange {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* section */
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+  padding: 0rem;
+  margin: 0;
+}
+
 .container-center {
   max-width: 600px;
   margin: auto;
-  text-align: center;
 }
 
-.list-styling {
-  list-style: none;
-  /* margin: 2rem;
-  padding: 2rem; */
+/* footer */
+
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: var(--accent-color);
+  border-top-right-radius: 1rem;
 }
-button {
-  margin: 2rem;
-  padding: 2rem;
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  margin: 0 1rem;
+}
+.footer__icon:hover {
+  color: white;
 }
