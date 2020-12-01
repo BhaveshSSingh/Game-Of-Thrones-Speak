@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #d69974;
-  --off-white: #e5e7eb;
-  --dark-gray: #231f20;
+  --primary-color: #f6f1ea;
 }
 
 body {
@@ -12,7 +10,6 @@ body {
 }
 #header {
   border-bottom-left-radius: 1rem;
-
   text-align: center;
   font-size: 2rem;
   padding: 1rem;
@@ -20,9 +17,11 @@ body {
   background-color: var(--primary-color);
   margin: 0;
 }
-
+.highlight {
+  color: #9a5239;
+}
 textarea {
-  border: 1px solid black;
+  border: 1px solid #9a5239;
   height: 10vh;
   width: 100%;
   padding: 1rem;
@@ -35,17 +34,16 @@ textarea {
 }
 .placeholder {
   font-family: "Poppins", sans-serif;
-  color: var(--dark-gray);
 }
 
 img {
-  max-width: 100px;
+  max-width: 200px;
   display: block;
   margin: auto;
   border-radius: 1rem;
 }
 #output {
-  border: 1px solid black;
+  border: 1px solid #9a5239;
   height: 10vh;
   width: 100%;
   padding: 1rem;
@@ -59,10 +57,10 @@ img {
 }
 
 button {
-  background-color: var(--primary-color);
+  background-color: #9a5239;
   border-radius: 0.5rem;
   border: none;
-  color: black;
+  color: var(--primary-color);
   padding: 0.5rem;
   margin: 1rem;
 }
@@ -78,10 +76,10 @@ button {
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: #9a5239;
   padding: 2rem 0rem;
   text-align: center;
-  color: black;
+  color: var(--primary-color);
   border-top-right-radius: 1rem;
   margin: 0;
 }
@@ -102,7 +100,7 @@ footer {
   margin: 0 1rem;
 }
 .footer__icon:hover {
-  color: white;
+  color: black;
 }
 h3 {
   font-size: 0.7rem;

@@ -26,6 +26,10 @@ body {
   margin: none;
   position: -webkit-sticky;
   text-decoration: none;
+  font-weight: bold;
+}
+.nav .link:hover {
+  color: var(--accent-color);
 }
 
 .nav .nav-brand {
